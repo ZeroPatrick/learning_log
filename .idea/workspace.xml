@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6ed3632-e4dc-4b15-9e40-d0db3bd0cd7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/learning_log/templates/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning_log/templates/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning_log/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning_log/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +23,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learning_log/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="151" column="4" selection-start-line="151" selection-start-column="4" selection-end-line="151" selection-end-column="4" />
+            <state relative-caret-position="144">
+              <caret line="60" column="69" lean-forward="true" selection-start-line="60" selection-start-column="69" selection-end-line="60" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learning_log/templates/404.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learning_log/templates/500.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -77,14 +98,16 @@
         <option value="$PROJECT_DIR$/learning_log/wsgi.py" />
         <option value="$PROJECT_DIR$/learning_log/static/placeholder.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/learning_log/templates/404.html" />
+        <option value="$PROJECT_DIR$/learning_log/templates/500.html" />
         <option value="$PROJECT_DIR$/learning_log/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="582" />
-    <option name="y" value="86" />
-    <option name="width" value="898" />
+    <option name="x" value="545" />
+    <option name="y" value="135" />
+    <option name="width" value="1378" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -110,6 +133,12 @@
               <item name="learning_log" type="b2602c69:ProjectViewProjectNode" />
               <item name="learning_log" type="462c0819:PsiDirectoryNode" />
               <item name="learning_log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning_log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning_log" type="462c0819:PsiDirectoryNode" />
+              <item name="learning_log" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learning_log" type="b2602c69:ProjectViewProjectNode" />
@@ -159,10 +188,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="466" y="69" width="718" height="832" extended-state="0" />
-    <editor active="true" />
+    <frame x="436" y="108" width="1102" height="832" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32551318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20825516" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -173,7 +201,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49706745" visible="true" weight="0.38142857" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49706745" visible="true" weight="0.38142857" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50293255" side_tool="true" weight="0.38142857" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32924962" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -489,10 +517,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/learning_log/templates/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning_log/templates/500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/learning_log/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="151" column="4" selection-start-line="151" selection-start-column="4" selection-end-line="151" selection-end-column="4" />
+        <state relative-caret-position="144">
+          <caret line="60" column="69" lean-forward="true" selection-start-line="60" selection-start-column="69" selection-end-line="60" selection-end-column="69" />
         </state>
       </provider>
     </entry>
