@@ -143,7 +143,12 @@ if os.getcwd() == '/app':
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
     # 支持所有的主机头（host header)
-    ALLOWED_HOSTS = ['*']
+    # ALLOWED_HOSTS = ['*']
+
+    # 只允许Heroku托管这个项目
+    ALLOWED_HOST = ['z-learninglog.herokuapp.com']
+
+    DEBUG = False
 
     # 静态资产配置
     PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
