@@ -24,8 +24,8 @@ SECRET_KEY = '@0co3r(^%f6vb9u$alc-4j0+ynq$9+cl!_1^php=za+_$z0e@q'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-1
-ALLOWED_HOSTS = ['192.168.137.1', '192.168.1.109', '127.0.0.1']
+
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -133,7 +133,7 @@ BOOTSTRAP3 = {
  }
 
 # Heroku设置
-if os.getcwd() =='/app':
+if os.getcwd() == '/app':
     import dj_database_url
     DATABASES = {
         'default': dj_database_url.config(default='postgres://localhost')
@@ -146,8 +146,8 @@ if os.getcwd() =='/app':
     ALLOWED_HOSTS = ['*']
 
     # 静态资产配置
-    BASE_DIR = os.path.dirnam(os.path.abspath(__file__))
-    STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    STATIC_ROOT = 'staticfiles'
     STATICFILES_DIRS = (
         os.path.join(BASE_DIR, 'static'),
     )
