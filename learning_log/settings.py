@@ -147,7 +147,7 @@ if os.getcwd() == '/app':
 
     # 静态资产配置
     PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
-    STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
+    STATIC_ROOT = 'staticfiles'
     STATICFILES_DIRS = (
         os.path.join(PROJECT_DIR, 'static'),
     )
