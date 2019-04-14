@@ -146,8 +146,8 @@ if os.getcwd() == '/app':
     ALLOWED_HOSTS = ['*']
 
     # 静态资产配置
-    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    STATIC_ROOT = "/static/"
+    PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
+    STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
     STATICFILES_DIRS = (
-        os.path.join(BASE_DIR, 'static'),
+        os.path.join(PROJECT_DIR, 'static'),
     )
